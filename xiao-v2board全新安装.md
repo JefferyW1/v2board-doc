@@ -131,12 +131,14 @@ access_log /dev/null;
 
 ```
 php artisan horizon
+/www/server/php/83/bin/php artisan horizon  若服务器多个php版本，指定版本
 ```
 ![image](https://github.com/vlesstop/xiaoV2b/assets/48223192/8eafa37c-d605-4f7a-aa66-1bb9bb792e22)
 
 
 ```
 php -c cli-php.ini webman.php start
+/www/server/php/83/bin/php -c cli-php.ini webman.php start   若服务器多个php版本，指定版本
 ```
 同样的操作，启动命令换成如上，出现进程ID后证明启动成功
 ![image](https://github.com/vlesstop/xiaoV2b/assets/48223192/e9056156-91f8-4bda-96fa-360fbec2955b)
