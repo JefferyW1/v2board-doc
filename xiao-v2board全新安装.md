@@ -58,7 +58,8 @@ https://github.com/wyx2685/v2board/
 ## 删除目录下所有文件以后执行以下命令
      git clone https://github.com/wyx2685/v2board.git ./
 ## 克隆完成后执行以下命令
-      sh init.sh
+      sh init.sh   （安装）
+      sh update.sh （升级）
 
 ![image](https://github.com/vlesstop/xiaoV2b/assets/48223192/2e28d801-5db1-4074-ae31-a25180442278)
 
